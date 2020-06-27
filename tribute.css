@@ -1,0 +1,74 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+body{
+  background-image: url("beautiful-stadium-photo-wallpaper.jpg");
+  background-size: cover;
+  font-size: 20px;
+  font-family:verdana;
+}
+#title{
+margin: 0px 0px 5px 0px;
+padding: 15px;
+background-color:rgba(0,0,255,.3);
+border-radius: 10px;
+
+}
+#title h1{
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+#img-div{
+  border-radius: 6px dotted blue;
+  border-radius: 15px;
+    width: 100%;
+}
+#image{
+  max-width: 600px;
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 15px;
+  opacity: .6;
+}
+#img-caption{
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+  opacity: .6;
+  border: 5px auto;
+}
+#img-caption h4{
+  color:blue;
+font-style: italic;
+}
+#tribute-info{
+  margin: 30px 100px;
+  color:rgba(255,255,255,.8);
+  background-color:rgba(0,0,255,.3);
+
+  border-radius: 15px;
+
+}
+#tribute-info h2{
+  text-align: center;
+  padding: 50px 10px;
+}
+#tribute-info p{
+  padding: 15px 20px 25px 50px;
+}
+.header{
+  margin: 20px auto;
+  padding:20px;
+  background-color:rgba(0,0,255,.3);
+}
+#tribute-link{
+  text-decoration:none;
+  color:white;
+  padding-left: 800px;
+}
+#tribute-link:hover{
+  color:red;
+}
